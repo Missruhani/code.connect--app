@@ -1,0 +1,58 @@
+.create-page-container {
+  background-color: var(--nav-bg);
+  padding: 30px;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+}
+
+.create-post-box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.create-post-box label {
+  font-weight: 600;
+  color: var(--accent-color);
+}
+
+.code-input {
+  background-color: #1e1e1e;
+  color: #569cd6; /* VS Code like text */
+  font-family: monospace;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  resize: vertical;
+}
+
+.attachment-box {
+  border: 2px dashed var(--accent-color);
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.link-input {
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+  border-radius: 6px;
+}
+
+.submit-btn {
+  background-color: var(--accent-color);
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}

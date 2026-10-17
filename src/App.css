@@ -1,0 +1,51 @@
+:root {
+  /* Light Mode: Purple & White */
+  --bg-color: #ffffff;
+  --text-color: #2d004d;
+  --nav-bg: #f8f0ff;
+  --border-color: #d1b3ff;
+  --hover-bg: #ebd9ff;
+  --footer-bg: #4b0082;
+  --footer-text: #ffffff;
+  --accent-color: #8a2be2;
+}
+
+[data-theme='dark'] {
+  /* Dark Mode: Purple & Black */
+  --bg-color: #000000;
+  --text-color: #e0d4ff;
+  --nav-bg: #0d001a;
+  --border-color: #4b0082;
+  --hover-bg: #1f0033;
+  --footer-bg: #05000a;
+  --accent-color: #9370db;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: system-ui, -apple-system, sans-serif;
+  margin: 0;
+  transition: all 0.3s ease;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* SIDEBAR MOVED TO LEFT BY REVERSING LAYOUT */
+.main-layout {
+  display: flex;
+  flex-direction: row; /* Left to right */
+  flex: 1;
+  padding-top: 70px;
+}
+
+.content-area {
+  flex: 1;
+  padding: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+}

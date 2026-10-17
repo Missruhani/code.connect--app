@@ -1,0 +1,78 @@
+.profile-container {
+  padding: 30px;
+  color: #ffffff;
+  max-width: 900px;
+}
+
+/* Top Card Styling */
+.profile-top-card {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 30px;
+  margin-bottom: 20px;
+  background-color: transparent;
+}
+
+/* The glowing purple circle */
+.profile-avatar-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid #8b5cf6; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  font-size: 0.9rem;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.profile-avatar-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-info h2 {
+  margin: 0 0 10px 0;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.profile-info p {
+  margin: 0;
+  color: #a1a1aa;
+  font-size: 1rem;
+}
+
+/* Grid Layout */
+.profile-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.profile-card {
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 20px;
+  background-color: transparent;
+}
+
+.profile-card h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  color: #f3f4f6;
+}
+
+.profile-card p {
+  margin: 5px 0;
+  color: #9ca3af;
+  font-size: 0.95rem;
+} 
