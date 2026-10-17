@@ -3,19 +3,19 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // Layout Components
 import Navbar from './components/Navbar/Navbar';
-import DashboardSidebar from './components/Sidebar/DashboardSidebar'; 
+import Dashboardsidebar from './components/sidebar/Dashboardsidebar'; 
 import Footer from './components/Footer/Footer';
 
 // Pages
-import Home from './pages/Home/Home';
-import Login from './pages/Login/Login';
-import Signup from './pages/Signup/Signup';
-import CreatePost from './pages/CreatePost/CreatePost';
-import Profile from './pages/Profile/Profile';
-import Explore from './pages/Explore/Explore';
-import Settings from './pages/Settings/Settings';
-import CurrentTopics from './pages/CurrentTopics/CurrentTopics';
-import GenericPage from './pages/GenericPage/GenericPage';
+import Home from './Pages/Home/Home';
+import Login from './Pages/Login/Login';
+import Signup from './Pages/Signup/Signup';
+import CreatePost from './Pages/CreatePost/CreatePost';
+import Profile from './Pages/Profile/Profile';
+import Explore from './Pages/Explore/Explore';
+import Settings from './Pages/Settings/Settings';
+import CurrentTopics from './Pages/CurrentTopics/CurrentTopics';
+import GenericPage from './Pages/GenericPage/GenericPage';
 
 // Global Styles
 import './App.css';
@@ -40,7 +40,7 @@ function App() {
         
         <div className="main-layout">
           {/* Dashboard Sidebar is rendered here on the left */}
-          <DashboardSidebar /> 
+          <Dashboardsidebar /> 
           
           <div className="content-area">
             <Routes>

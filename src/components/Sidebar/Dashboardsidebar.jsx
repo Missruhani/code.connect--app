@@ -1,8 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import './DashboardSidebar.css';
+import './Dashboardsidebar.css';
 
-const DashboardSidebar = () => {
+const Dashboardsidebar = () => {
   const menuItems = [
     { name: "User Profile", path: "/profile" },
     { name: "Current Topics", path: "/topics" },
@@ -34,4 +34,4 @@ const DashboardSidebar = () => {
   );
 };
 
-export default DashboardSidebar;
+export default Dashboardsidebar; 
